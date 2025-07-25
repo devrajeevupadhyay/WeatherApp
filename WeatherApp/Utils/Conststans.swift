@@ -9,4 +9,6 @@
 struct API_URLS {
     static let BASE_URL = "https://api.weatherbit.io/v2.0/"
     static let CURRENT_WEATHER = "current"
+    static let WESTHER_PARAMS = "?lat=%@&lon=%@&key=%@"
+    
 }
